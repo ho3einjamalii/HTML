@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    padding:100px;
+    background: url(../images/o.jpg)
+}
+hr{
+    padding: 10px;
+    background: black;
+}
+header{
+    direction: rtl;
+
+}
+nav ul li a{
+    text-decoration: none;
+    
+
+
+}
+nav ul li{
+    list-style:none;
+    display: inline;
+    position: relative;
+}
+nav>ul>li:hover>.submenu{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    display: block;
+}
+nav ul li.submenu,nav ul li ul.submenu{
+    display: none;
+
+}
+nav>ul>li>a{
+    padding: 70px;
+    border: 5px solid rgb(6, 5, 7);
+    background:rgb(216, 173, 189);
+}
+nav ul li .submenu a{
+    background: rgb(206, 231, 112);
+    padding: 2px;
+    border: 1px solid black;
+   
+}
+nav ul li .submenu{
+    position: relative;
+
+}
+nav ul li .submenu,nav ul li ul .submenu{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    
+}
+nav ul li .submenu .submenu a{
+    background: red;
+    padding:1px;
+    
+}
+nav>ul>li>.submenu>li:hover>.submenu{
+    display: block;
+}
+footer{
+    padding: 100px;
+    background: rgba(70, 70, 199, 0.555);
+}
